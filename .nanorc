@@ -1,0 +1,23 @@
+# autmatically indent cursor on an indented line
+set autoindent
+
+# don't write a search history log
+# (i've never used it)
+unset historylog
+
+# don't convert files from DOS/Windows automatically
+set noconvert
+
+# don't always add a newline at the end of a file
+# (really annoying with version control)
+set nonewlines
+
+# use extended regexp by default
+set regexp
+
+# set tabsize to 4
+# (sorry, but 8 is just a waste of space)
+set tabsize 4
+# convert tabs to spaces
+# (usefull for python)
+set tabstospaces
