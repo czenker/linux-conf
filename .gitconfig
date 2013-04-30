@@ -1,0 +1,24 @@
+[user]
+	name = Christian Zenker
+	email = dev@xopn.de
+[core]
+	editor = nano
+[color]
+	branch = true
+	diff = true
+	interactive = true
+	status = true
+[alias]
+	# shows file changed since this commit 
+	fcsince = diff --name-status 
+	last = log -1 HEAD
+	hist = log --format=\"%h %ad | %s%d [%an]\" --graph --date=short
+	aa = add --all
+	ai = add -p
+	ri = reset HEAD -p
+	pom = push origin master
+	staged = diff --cached
+[url "ssh://czenker@review.typo3.org:29418"]
+	pushInsteadOf = git://git.typo3.org
+[branch]
+	autosetuprebase = remote
