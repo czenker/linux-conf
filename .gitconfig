@@ -13,6 +13,7 @@
 	fcsince = diff --name-status 
 	last = log -1 HEAD
 	hist = log --format=\"%h %ad | %s%d [%an]\" --graph --date=short
+    changelog = log --format=%s --reverse
 	aa = add --all
 	ai = add -p
 	ri = reset HEAD -p
